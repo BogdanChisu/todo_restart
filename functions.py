@@ -20,5 +20,6 @@ print(__name__)
 if __name__ == "__main__":
     # this is how you control what code is run when you run the script
     # directly or indirectly by importing it
+    # this lines are executed only when the file is executed directly
     print("Hello")
     print(get_todos())
