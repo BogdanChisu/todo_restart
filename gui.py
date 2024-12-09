@@ -6,7 +6,7 @@ input_box = sg.InputText(tooltip="Enter todo")
 add_button = sg.Button("Add")
 
 window = sg.Window('My To-Do App', layout=[[label], [input_box, add_button]])
-# each list in the layout list represents a new row in the window
+# each list in the layout list represents a row in the window
 window.read()
 print("Hello")
 window.close()
