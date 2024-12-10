@@ -20,10 +20,13 @@ while True:
     event, values = window.read()
     match event:
         case "Convert":
-            feet_val = float(values['feet'])
-            inches_val = float(values['inches'])
-            result_val = feet_val * 0.3048 + inches_val* 0.0254
-            window["result"].update(value=str(result_val)+" m")
+            try:
+                feet_val = float(values['feet'])
+                inches_val = float(values['inches'])
+                result_val = feet_val * 0.3048 + inches_val* 0.0254
+                window["result"].update(value=str(result_val)+" m")
+            except ValueError:
+                sg.popup("Please provide two numbers.")
         case "Exit":
             exit()
         case sg.WIN_CLOSED:

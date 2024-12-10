@@ -1,7 +1,5 @@
-Fix the drawer
 Buy plantsMake pizza
-Clean the code
-Buy the painting
+Clean the code againBuy the painting
 Something
 My newest todo is added
 Make soup
