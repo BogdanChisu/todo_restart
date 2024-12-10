@@ -1,15 +1,12 @@
-prepare dinner
-fix the computer
-Get the car
-Fix the bug
-Clean the bag
+prepare something for dinnerFix the bugClean the bag
 Fix the drawer
 Sell the dog!
-Buy a camera
-Make soup
+Buy plantsMake soup
 Make pizza
 Clean the code
 Buy the painting
 Turn off the light
-My new todo
-Master Python
+Clean the programMaster Python
+Something
+My newest todo is added
+Make soup
