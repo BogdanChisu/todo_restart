@@ -12,3 +12,4 @@ Clean the code
 Buy the painting
 Turn off the light
 My new todo
+Master Python
